@@ -246,13 +246,14 @@ h1 {
 }
 
 /* portfolio-text-content */
-.portfolio-text-content h5{
+.portfolio-text-content h5 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
 }
-.portfolio-text-content h2{
+
+.portfolio-text-content h2 {
     color: rgb(7, 2, 17);
     font-family: Merriweather;
     font-size: 38px;
@@ -262,21 +263,97 @@ h1 {
     text-align: left;
     /* text-transform: capitalize; */
 }
-.portfolio-text-content p{
+
+.portfolio-text-content p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
     font-size: 14px;
     font-weight: 700;
 }
-.portfolio-img{
+
+.portfolio-img {
     width: 392px;
 }
-.portfolio-img img{
+
+.portfolio-img img {
     width: 100%;
 }
-.portfolio-item{
+
+.portfolio-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-top: 30px;
+}
+
+/* subscribe-section style */
+.subscribe-section {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.subscribe-section h3 {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 12px;
+}
+
+.subscribe-section P {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+/* footer section style */
+footer{
+   background-color: rgb(7, 2, 17);
+   color: white;
+}
+.footer-section-content{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+}
+.footer-contect{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.footer-social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0 
+}
+.footer-social-media img{
+    width: 40px;   
+}
+.hr-line{
+    margin-top: 70px;
+
+}
+.hr-line hr{
+    border: 1px solid rgb(69, 69, 75);
+}
+.call-icon{
+    display: flex;
+    gap: 5px;
 }
