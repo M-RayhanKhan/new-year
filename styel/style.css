@@ -16,7 +16,7 @@ body {
     min-height: 500px;
     margin: 0 auto;
     margin-top: 20px;
-    background-color: rgb(0, 0,  0 , 0. 5);
+    background-color: rgb(0, 0, 0, 0. 5);
     background-blend-mode: overlay;
     background-image: url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
@@ -44,7 +44,7 @@ h1 {
     font-size: 25px;
     font-weight: 700;
     text-align: center;
-    
+
 }
 
 .div-container h1 {
@@ -55,3 +55,100 @@ h1 {
     margin-top: 20px;
 }
 
+/* second section style */
+.second-section-container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.secon-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sub-title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.third-title {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+/* midnight  section style */
+.midnight-party-section {
+    width: 1220px;
+    height: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+    background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.left-side{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    /* padding-right: 20px; */
+}
+.left-side h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.left-side p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.left-side span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+}
+.right-side{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
