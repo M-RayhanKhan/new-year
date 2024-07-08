@@ -162,7 +162,6 @@ h1 {
 .holiday-section-container {
     width: 1200px;
     height: 686.07px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -174,7 +173,7 @@ h1 {
     width: 808px;
     margin: 0 auto;
     text-align: center;
-   
+
 }
 
 .holiday-text-container h5 {
@@ -196,6 +195,7 @@ h1 {
     letter-spacing: 0%;
     text-align: center;
 }
+
 .holiday-text-container p {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
@@ -204,32 +204,79 @@ h1 {
     letter-spacing: 0%;
     text-align: center;
 }
-.holi{
+
+.holi {
     color: red;
 }
 
-.solid-color{
+.solid-color {
     width: 100%;
     height: 220px;
     background-color: red;
-    position:absolute;
+    position: absolute;
     top: 68%;
     margin-bottom: 20px;
 }
-.giftbox{
+
+.giftbox {
     display: flex;
     justify-content: space-between;
     /* margin-top: 50px; */
 }
-.gift-img img{
+
+.gift-img img {
     width: 400px;
     position: relative;
     top: 30%;
     left: 8%;
 }
 
-.discount img{
+.discount img {
     width: 250px;
     position: relative;
     top: 10%;
+}
+
+/* portfolio section style here  */
+.portfolio-section-container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/* portfolio-text-content */
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+.portfolio-text-content h2{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* text-transform: capitalize; */
+}
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+.portfolio-img{
+    width: 392px;
+}
+.portfolio-img img{
+    width: 100%;
+}
+.portfolio-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
 }
