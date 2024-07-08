@@ -314,10 +314,44 @@ h1 {
 .subscribe-section P {
     color: rgba(7, 2, 17, 0.6);
     font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 500;
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribe-email {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+}
+
+.subscribe-email input[type='email'] {
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    padding: 18px 20px;
+    background: rgb(255, 247, 247);
+    width: 400px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 10px 10px 50px;
+}
+
+.btn {
+    padding: 19px 30px;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(255, 0, 0);
+    /* margin-right: 20px; */
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-right: 50px;
 }
 
 /* footer section style */
@@ -364,6 +398,58 @@ footer {
     display: flex;
     gap: 5px;
 }
+
+/* price section start  */
+.price-container {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+    border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+
+}
+
+.price-container h3 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+
+.price span {
+    color: red;
+}
+
+.price button {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    padding: 14px 30px 14px 30px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+/* price section end  */
 
 /* new offer container style */
 .new-offer-container {
@@ -425,13 +511,14 @@ footer {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .offer-img {
- width: 300px;
- border: 10px solid red;
- border-radius: 100%;
- padding: 20px;
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 100%;
+    padding: 20px;
 }
 
-.offer-img img{
-  width: 100%;
+.offer-img img {
+    width: 100%;
 }
